@@ -1,0 +1,24 @@
+.barre1{
+    height: 13vh;
+    display: flex;
+    background-color: #222;
+    padding: 0vh 5vh;
+
+}
+.contact{
+    margin: auto 0px;
+    font-size: 2.5vh;
+    color: white;
+}
+.compte{
+    margin: auto 0px;
+    overflow-y: hidden;
+    font-size: 2.5vh;
+}
+.compte a{
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 6px;
+
+}

@@ -1,0 +1,83 @@
+.div_footer{
+    background-color: #582900;
+}
+.div_footer1{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 30px auto;
+}
+.div_footer1 div{
+    width: 30%;
+    padding: 3px;
+    border: 1px solid #999;
+}
+.titre00{
+    font-size: 4vh;
+    color: #999;
+    text-align: center;
+}
+.tarafe_description{
+    color: #999;
+    font-size: 3vh;
+    width: 90%;
+    margin: 0vh auto;
+}
+.structure_list{
+    color: #999;
+    font-size: 3vh;
+    width: 90%;
+    margin: 0vh auto;
+}
+.contact_list{
+    font-size: 3vh;
+    color: #999;
+    text-align: center;
+}
+.reseaux{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 3vh 0vh;
+}
+.reseaux img{
+    width: 15%;
+}
+.div_signature{
+    display: flex;
+    justify-content: center;
+    background-color: #222;
+    border-top: 1px solid #999;
+    height: 40px;
+}
+.signature{
+    font-size: 20px;
+    color: white;
+    margin: auto 0px;
+    text-align: center;
+}
+
+@media screen and (max-width:700px){
+
+    .div_footer1{
+        display: inline-block;
+        justify-content: space-between;
+        width: 99%;
+        margin: auto;
+    }
+    .div_footer1 div{
+        width: 90%;
+        padding: 3px;
+        border: 1px solid #999;
+        margin: 0px auto;
+        font-size: 30px;
+    }
+    .reseaux img{
+        width: 35px;
+    }
+    .div_signature{
+        height: 30px;
+    }
+    .signature{
+        font-size: 15px;
+    }
+}

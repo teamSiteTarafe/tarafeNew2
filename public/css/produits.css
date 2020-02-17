@@ -1,0 +1,231 @@
+/*            div_nouveaute             */
+.div_nouveaute{
+    height: 8vh;
+}
+.p1{
+    font-size: 4vh;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 2px;
+    margin: auto;
+    color:red;
+
+}
+.underline{
+    margin: auto;
+    width: 15vh;
+    border: 1px solid black;
+}
+
+
+/*          categories              */
+.div_categorie01{
+    width: 90%;
+    margin: auto;
+
+}
+.div_categorie02{
+    min-height: 50px;
+    display: flex;
+    flex-direction: row;
+    width:25% ;
+    color: white;
+    background-color: #582900;
+
+}
+.div_categorie03{
+    display: flex;
+
+}
+.div_s_menu{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 300px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid black;
+    background-color: #e6e6e666;
+}
+.div_s_menu div{
+    cursor: pointer;
+}
+.div_s_menu02{
+    height: 300px;
+    overflow: hidden;
+    border: 1px solid black;
+}
+.s_menu02{
+    padding: 0 5px;
+    display: flex;
+}
+.s_menu02 div{
+    overflow: hidden;
+    margin-right: 10px;
+}
+.titre{
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+    border-bottom: 1px solid black;
+}
+.s-titre{
+    text-align: center;
+}
+.aa{
+    text-decoration: none;
+    color: black;
+}
+.aa:hover{
+    text-decoration: none;
+    color: black;
+}
+.trois{
+    cursor: pointer;
+    width: 4vh;
+    height: 4vh;
+    margin: auto 0px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 1px solid white;
+}
+.trois div{
+    border-top: 2px solid white;
+    width: 90%;
+    margin: auto;
+}
+.categorie{
+    margin: auto 0px;
+    margin-left: 10px;
+    font-size: larger;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+/*              Produit Nouveaute       */
+.brd{
+    background-color: rgba(230, 230, 230, 0.4);
+}
+.div_nouveaute_produit{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+}
+.nouveaute01{
+    margin: 5vh 0vh;
+    margin-left: 6%;
+    min-width: 180px;
+    max-width: 27%;
+    border-radius: 10px;
+    background-color: white;
+}
+.class_link{
+    color: black;
+    width: 100%;
+}
+.img_nouveaute{
+    width: 98%;
+    margin: 0px auto;
+}
+.info_prod{
+    min-height: 25vh;
+}
+.nom_prod{
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    margin: 2vh 0vh;
+}
+.marque_prod{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    margin: 2vh 0vh;
+}
+.prix_prod{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    margin: 2vh 0vh;
+}
+
+@media screen and (max-width:850px){
+    
+    .sm2{
+        display: block;
+    }
+    .sm1{
+        display: none;
+    }
+    .div_categorie02{
+        width: 40%;
+    }
+    .nouveaute01{
+        margin-left:4%;
+    }
+    .titre{
+        font-size: large;
+    }
+    .s-titre{
+        font-size: 2vh;
+    }
+}
+@media screen and (max-width:750px){
+    
+    .nouveaute01{
+        max-width: 40%;
+    }
+}
+@media screen and (max-width:650px){
+    
+    .div_categorie02{
+        width: 50%;
+    }
+    .categorie{
+        margin: auto;
+    }
+    .div_s_menu{
+        font-size: 15px;
+        width: 100%;
+        height: 100px;
+    }
+    .s_menu02{
+        width: 100%;
+
+    }
+    .div_s_menu02{
+        width: 100%;
+    }
+    .div_categorie03{
+        flex-direction: column;
+    }
+    .choix{
+        display: flex;
+
+    }
+    .choix div{
+        width: 25%;
+        text-align: center;
+        border: 1px solid black;
+    }
+    
+}
+@media screen and (max-width:500px){
+    
+    .nouveaute01{
+        max-width: 70%;
+        min-width: 250px;
+        margin: 5vh auto;
+    }
+    .div_categorie02{
+        width: 100%;
+    }
+    
+
+    
+}

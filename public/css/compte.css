@@ -1,0 +1,152 @@
+*{
+    boder: 1px solid black;
+}
+/*            div_nouveaute             */
+.div_nouveaute{
+    height: 15vh;
+}
+.p1{
+    font-size: 7vh;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 2px;
+    margin: auto;
+    color:red;
+
+}
+.underline{
+    margin: auto;
+    width: 15vh;
+    border: 1px solid black;
+}
+
+
+/*              informations          */
+.divinfo00{
+    width: 80%;
+    margin: 5vh auto;
+    border-radius: 20px;
+}
+.titre_info00{
+    display: flex;
+    flex-direction: row;
+    background-color: #582900;
+    padding: 5px;
+}
+.trois1{
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    margin: auto 0px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 2px solid white;
+}
+.trois1 div{
+    border: 2px solid white;
+    width: 90%;
+    margin: auto;
+}
+.categorie{
+    margin: auto;
+    width: auto;
+    font-size: larger;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: white;
+}
+.info01{
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+}
+.info01 p{
+    margin: 20px 0px;
+    width: auto;
+}
+.modifbtn{
+    height: 60px;
+    display: flex;
+}
+.modifbtn a{
+    margin: auto;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    width: 200px;
+    height: 45px;
+    background-color: #582900;
+}
+
+/*              commande            */
+.pd{
+    padding-right: 10px;
+}
+.table{
+    overflow-x: auto;
+    padding: 0px 20px;
+}
+table{
+    min-width: 500px;
+    max-width: 80%;
+    margin: 20px auto;
+    text-align: center;
+    border: 1px solid black;
+}
+thead{
+    font-size: larger;
+    font-weight: bolder;
+}
+td{
+    padding: 0px 5px;
+}
+
+/*          Produits nouveaute          */
+.produit{
+    display: flex;
+    overflow-x: auto;
+}
+.nouveaute01{
+    margin: 5vh 0vh;
+    margin-left: 6%;
+    min-width: 220px;
+    max-width: 27%;
+    border-radius: 10px;
+    background-color: white;
+}
+.class_link{
+    color: black;
+    width: 100%;
+}
+.img_nouveaute{
+    width: 98%;
+    margin: 0px auto;
+}
+.info_prod{
+    min-height: 25vh;
+}
+.nom_prod{
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    margin: 2vh 0vh;
+}
+.marque_prod{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    margin: 2vh 0vh;
+}
+.prix_prod{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    margin: 2vh 0vh;
+}
+@media screen and (max-width: 550px){
+    .divinfo00{
+        width: 90%;
+    }
+}

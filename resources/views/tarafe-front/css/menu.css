@@ -1,0 +1,253 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+.nbt{
+    color: white;
+}
+
+/*          contact         */
+
+.barre1{
+    height: 4vh;
+    display: flex;
+    background-color: #222;
+    padding: 0vh 5vh;
+
+}
+.contact{
+    margin:0px;
+    font-size: 2vh;
+    color: white;
+}
+.compte{
+    margin:0px;
+    font-size: 2vh;
+}
+.compte a{
+    padding: 0px;
+    margin: 0px;
+    color: white;
+}
+.logo_compte{
+    width: 3vh;
+}
+
+/*              logo + search input + panier    */
+
+
+.div_input2{
+    display: none;
+}
+.trois_traits{
+    display: none;
+}
+.logo_img{
+    margin:auto;
+    width: 20vh;
+}
+
+.barre2{
+    padding: 0vh 2vh;
+    height:;
+}
+.div_input{
+    display: flex;
+}
+.form_search{
+    display: flex;
+    margin: auto;
+    padding:3px;
+    border-radius: 20px;
+    border: 1px solid black;
+    padding-left: 10px;
+}
+.search{
+    width: 55vh;
+    border: none;
+    height: 4vh;
+    outline: none;
+}
+.submit00{
+    width: 6vh;
+    border: none;
+    height: 5vh;
+    background-color: white;
+    outline: none;
+}
+.submit01{
+    height: 2vh
+}
+
+.div_panier{
+    display: flex;
+    justify-content: center;
+}
+.div_panier2{
+    margin: auto;
+}
+.votre_panier{
+    font-size: 2.5vh;
+    color: black;
+
+}
+.panier_logo{
+    width:35px;
+}
+
+/*              nav button              */
+
+.barre3{
+    display: flex;
+    height: 10vh;
+    background-color: #582900;
+}
+.barre_bouton{
+    display: flex;
+    width: 80%;
+    z-index: 10;
+}
+.ul_bouton{
+    padding-left: 5vh;
+    margin: auto;
+}
+.li_bouton{
+    font-size: 2.5vh;
+    padding: 0px 13px;
+}
+.li_bouton a{
+    color: white;
+}
+.d_h{
+    display: none;  /*connexion inscription pour les smartphones*/
+}
+.btn{
+    color: white;
+}
+.separator00{
+    border: 1px solid white;
+}
+.div_connexion{
+    display: flex;
+    width: 20%;
+}
+.div_connexion2{
+    margin: auto;
+}
+.div_connexion2 a{
+    color: white;
+    font-size: 2.5vh;
+}
+
+@media screen and (max-width: 1000px){
+
+    .barre_bouton{
+        width: 77%;
+    }
+    .li_bouton a{
+        padding: 0px 5px;
+    }
+    .div_connexion{
+        width: 23%;
+    }
+}
+@media screen and (max-width: 900px){
+
+    .barre_bouton{
+        width: 70%;
+    }
+    .ul_bouton{
+        padding-left: 4vh;
+    }
+    .li_bouton{
+        padding: 0px 8px;
+    }
+    .div_connexion{
+        width: 25%;
+    }
+}
+@media screen and (max-width: 800px){
+    .nbt{
+        font-size: 18px;
+    }
+    .barre3{
+        display: flex;
+        align-content: center;
+    }
+    .div_input{
+        display: none;
+    }
+    .div_connexion{
+        display: none;
+    }
+    .barre_bouton{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        background-color:#582900 ;
+        width: 60%;
+        height: 70vh;
+        top: 28vh;
+        transform: translateX(-100%);
+        transition: transform 0.5s ease-in;
+    }
+    .afficher{
+        transform: translateX(0%);
+    }
+    .ul_bouton{
+        height: 95%;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .li_bouton{
+        align-self: center;
+    }
+    .d_h{
+        display: inline-block;
+    }
+    .trois_traits{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 6vh;
+        border: 1px solid white;
+        width: 6vh;
+        margin-left: 5%;
+        padding: 5px 3px;
+        cursor: pointer;
+        
+    }
+    .trois_traits div{
+        border: 1px solid white;
+    }
+    .div_input2{
+        display: flex;
+        width: 80%;
+    }
+    .form_search{
+        display: flex;
+        margin: auto;
+        width: 60%;
+        background-color:white;
+    
+    }
+    .search1{
+        width: 80%;
+        border: none;
+        height: 5vh;
+        outline: none;
+        padding-left: 5px;
+
+    }
+    .submit00{
+        width: 20%;
+        border: none;
+        height: 5vh;
+        background-color: white;
+    }
+    .submit01{
+        height: 4vh
+    }
+
+}

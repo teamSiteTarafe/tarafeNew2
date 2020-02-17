@@ -1,0 +1,189 @@
+
+/*    nos services / trouver un couturier / trouver un model      */
+.div_boutique{
+    margin: 2vh 0vh;
+    height: 8vh;
+}
+.p1{
+    font-size: 4vh;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 2px;
+    margin: auto;
+    color:red;
+}
+.underline{
+    margin:auto;
+    width: 15vh;
+    border: 1px solid black;
+}
+/*              service description         */
+.service_description p{
+    width: 90%;
+    margin: auto;
+    font-size: x-large;
+    margin-bottom: 10vh;
+}
+
+
+/*                  liste trouver un couturier / trouver un model         */
+
+.div_boutique02{
+    background-color: rgba(230, 230, 230, 0.4);
+    padding: 10vh 5vh;
+}
+.h-1{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+.h-3{
+    padding-top: 5px;
+    background-color: white;
+    border-radius: 20px;
+    margin: 3vh 2vh;
+
+}
+.div_logo{
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid black;
+}
+.logo_boutique{
+    width: 90%;
+}
+.titre{
+    margin: 2vh 0vh;
+    font-size:1.2em;
+    font-weight:bold;
+    text-align: center;
+}
+
+
+/*              personnaliser un produit        */
+.tableau00{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20vh;
+    border: 1px solid black;
+}
+
+/*              en tete du tableau          */
+.tableau01{
+    display: flex;
+    border: 1px solid grey;
+    justify-content: space-between;
+}
+.tableau01 div{
+    width: 25%;
+    padding: 2vh 0vh;
+    font-size: x-large;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+}
+.tableau01 :nth-child(1){
+    border-right: 1px solid grey;
+}
+.tableau01 :nth-child(2){
+    border-right: 1px solid grey;
+}
+.tableau01 :nth-child(3){
+    border-right: 1px solid grey;
+}
+
+/*          le tableau          */
+
+.tableau02{
+    display: flex;
+    flex-direction: row;
+}
+.div_s_produit00{
+    width: 75%;
+}
+.s_menu{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+.s_menu :first-child{
+    border-top: none;
+}
+.act{
+    font-weight: bolder;
+    color: black;
+}
+.no_act{
+    border-right: 1px solid black;
+}
+.s_menu div{
+    border-top: 1px solid black;
+    height: 25%;
+    padding-top: 3vh;
+}
+.div_s_produits{
+    width: 75%;
+    padding-right: 10px;
+}
+.s_menu div{
+    cursor: pointer;
+    text-align: center;
+    font-size: x-large;
+}
+.act1{
+    color: white;
+    background-color: #310505;
+}
+.voir1{
+    display: flex;
+}
+.hide{
+    display: none;
+}
+.voir2{
+    display: flex;
+}
+.hide2{
+    display: none;
+}
+.h-3-1{
+    background-color: rgba(230, 230, 230, 0.4);
+    padding-top: 5px;
+    min-width: 200px;
+}
+.over{
+    overflow-x: auto;
+}
+.h-3-2{
+    background-color: rgba(230, 230, 230, 0.4);
+    padding-top: 5px;
+    width: 300px;
+    min-width: 250px;
+}
+
+@media screen and (max-width: 700px){
+    .s_over{
+        overflow-x: auto;
+    }
+    .s_menu div{
+        font-size: 3vh;
+        padding-top: 5vh;
+    }
+    .service_description p{
+        font-size: medium;
+    }
+}
+@media screen and (max-width: 570px){
+    .logo_boutique{
+        width: 50%;
+    }
+    .h-3{
+        margin: 3vh 5vh;
+    }
+    .tableau01 div{
+        font-size: large;
+    }
+    .p1{
+        font-size: x-large;
+    }
+}

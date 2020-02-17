@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+/*              bouton connexion barre menu         */
+.compte :first-child{
+    background-color: white;
+    color: black;
+}
+/*          formulaire          */
+.container00{
+    width: 50%;
+    margin: 10vh auto;
+    border: 2px solid #ccc;
+    box-shadow: 2px 5px 10px rgba(200, 200, 200, 0.4);
+    background: linear-gradient(to top left, grey,white,white);
+}
+.connect{
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    margin: 5vh 0vh;
+}
+form{
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+form :nth-child(1){
+    height: 40px;
+    width: 80%;
+    margin: 0px auto;
+    margin-bottom: 30px;
+    padding-left: 5px;
+    border: none;
+    box-shadow: 2px 3px 10px rgba(200, 200, 200, 0.4);
+}
+form :nth-child(2){
+    height: 40px;
+    width: 80%;
+    margin: 0px auto;
+    margin-bottom: 30px;
+    padding-left: 5px;
+    border: none;
+    box-shadow: 2px 3px 10px rgba(200, 200, 200, 0.4);
+}
+label{
+    vertical-align: middle;
+    margin: 0px auto;
+    margin-left: 10%;
+}
+#rappeler{
+    width: 15px;height: 15px;
+}
+form :nth-child(4){
+    height: 40px;
+    margin: 0px auto;
+    margin-left: 10%;
+    color: black;
+}
+form :last-child{
+    font-weight: bold;
+    letter-spacing: 1px;
+    width: 30%;
+    margin: 0px auto;
+    height: 40px;
+    margin-top: 30px;
+    color: white;
+    background-color: rgb(102, 56, 56);
+    border: none;
+}
+.creer{
+    text-align: center;
+}
+.creer :nth-child(2){
+    color: black;
+}
+
+@media screen and (max-width: 900px){
+    .container00{
+        width: 70%;
+    }
+    form :nth-child(5){
+        width: 48%;
+    }
+
+}
+@media screen and (max-width: 500px){
+    .container00{
+        width: 90%;
+    }
+    form :last-child{
+        width: 30%;
+    }
+    form :nth-child(5){
+        width: 80%;
+    }
+}

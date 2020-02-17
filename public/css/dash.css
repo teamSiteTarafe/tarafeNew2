@@ -1,0 +1,253 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    boder: 1px solid black;
+}
+/*            div_nouveaute             */
+.div_nouveaute{
+    height: 8vh;
+}
+.p1{
+    font-size: 4vh;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 2px;
+    vertical-align: middle;
+
+}
+.bkg{
+    background-color: #7d979736;
+}
+.underline{
+    margin: 0px auto;
+    width: 25vh;
+    border: 1px solid black;
+}
+
+/*          tableau         */
+.cont00{
+    display: flex;
+}
+.cont01{
+    width: 15%;
+}
+
+
+/*           bouton de navigation             */
+.cont010{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: auto;
+    margin-top: 80px;
+}
+.cont010 div{
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0px;
+    padding: 15px 4px;
+    cursor: pointer;
+}
+.no-color{
+    background-color: #7d979736;
+}
+.color{
+    background-color: orange;
+}
+.hde{
+    display: none;
+}
+.nhde{
+    display: block;
+}
+
+/*          COMMANDES       */
+
+.cont02{
+    background-color: #f9f9f9;
+    width: 85%; min-height: 800px;
+    padding: 10px;
+    box-shadow: -3px -1px #eee;
+}
+.cont021{
+    background-color: #fff;
+    margin: 20px;
+    padding: 10px;
+    max-height: 500px; width:auto;
+    box-shadow: 3px 3px rgba(175, 175, 175, 0.1);
+}
+.tab_commandes{
+    max-height: 300px;
+    overflow-x: auto;
+    min-height: 200px;
+    margin-top: 8vh;
+}
+table{
+    width: 95%;
+    margin: auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+table thead tr td{
+    border: 2px solid black;
+}
+tbody tr{
+    border: 1px solid black;
+    margin: 10px;
+    height: 30px;
+}
+
+/*                  PRODUIT                 */
+.cont0211{
+    background-color: #fff;
+    margin: 20px;
+    padding: 10px;
+    max-height: 500px; width:auto;
+    box-shadow: 3px 3px rgba(175, 175, 175, 0.1);
+}
+
+/*              Aouter le produit           */
+.cont0212{
+    background-color: #fff;
+    margin: 20px;
+    padding: 5px;
+    width:auto;
+    box-shadow: 3px 3px rgba(175, 175, 175, 0.1);
+}
+.Ajout{
+    padding: 30px;
+}
+form{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.form1{
+    display: flex;
+    flex-wrap: wrap;
+}
+.inpu{
+    display: block;
+    height: 30px; width: 40%;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding-left: 10px;
+    margin: 10px auto;
+}
+input{
+    outline: none;
+}
+td input{
+    width: 50px;
+}
+textarea{
+    outline: none;
+    margin: 30px 0px;
+}
+.check{
+    display: none;
+}
+.round{
+    display: inline-block;
+    width: 10px; height: 10px;
+    border-radius:10px;
+    vertical-align: middle;
+    border: 2px solid rgba(0, 0, 0, 0.021);
+}
+input:checked + .round{
+    border: 2px solid black;
+}
+.rnd1{
+    background-color: red;
+}
+.rnd2{
+    background-color: green;
+}
+.rnd3{
+    background-color: blue;
+}
+.rnd4{
+    background-color: orange;    
+}
+.rnd5{
+    background-color: yellow;
+}
+.submit{
+    background-color: orange;
+    color: white;
+    margin: 30px auto;
+    padding: 10px 30px;
+    border-radius: 10px;
+    box-shadow: none;
+    border: none;
+
+
+}
+
+@media screen and (max-width: 1200px){
+    .cont010 div{
+        font-size: 15px;
+    }
+    .cont02{
+        min-height: 500px;
+    }
+}
+@media screen and (max-width: 800px){
+    .cont010 div{
+        font-size: 13px;
+    }
+    .cont01{
+        width: 20%;
+    }
+    .cont02{
+        width: 80%;
+    }
+    form{
+        width: 90%;
+    }
+    td{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 700px){
+    td{
+        font-size: 12px;
+        padding: 1px;
+    }
+    .cont02{
+        padding: 2px;
+    }
+    .cont021{
+        margin: 10px;
+    }
+    .cont0211{
+        margin: 10px;
+    }
+    .cont0212{
+        margin: 10px;
+    }
+}
+@media screen and (max-width: 600px){
+    .cont00{
+        flex-direction: column;
+    }
+    .cont01{
+        width: auto;
+    }
+    .cont010{
+        flex-direction: row;
+    }
+    .cont02{
+        width: 95%;
+        margin: auto;
+        box-shadow: none;
+    }
+    .form1{
+        flex-direction: column;
+    }
+    .inpu{
+        width: 80%;
+    }
+}
